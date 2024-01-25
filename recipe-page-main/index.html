@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&display=swap');
+
+    body {
+      background-color: #F3E5D8;
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+
+
+    .cardcenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300vh;
+    }
+
+    .row {
+      padding: 15px 0;
+
+    }
+
+    h2,
+    h3,
+    h4 {
+      font-family: 'Young Serif', serif;
+      color: #754640;
+      line-height: 2;
+    }
+
+    h2 {
+      color: black;
+    }
+
+    strong {
+      color: #754640;
+    }
+
+    .preparetime {
+      background-color: #FEF8FC;
+      /* background-color: aqua; */
+      padding-bottom: 10;
+      padding-bottom: 10px;
+      font-size: 10px;
+    }
+
+    .preparetime h4 {
+      font-family: 'Outfit medium', sans-serif;
+      font-weight: 700;
+      color: #944E6A;
+      padding-left: 20px;
+    }
+
+    .preparedesc {
+      font-size: 15px;
+    }
+
+    .desc {
+      color: black;
+    }
+
+    .card,
+    .card-img-top {
+      border-radius: 4%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cardcenter">
+    <div class="card p-5" style="width: 50%;">
+      <img class="card-img-top" src="assets/images/image-omelette.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Simple Omelette Recipe</h2>
+        <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+        <div class="preparetime">
+          <h4>Preparation time</h3>
+            <ul class="preparedesc">
+              <li><strong class="desc">Total:</strong> Approximately 10 minutes</li>
+              <li><strong class="desc">Preparation:</strong> 5 minutes</li>
+              <li><strong class="desc">Cooking:</strong> 5 minutes</li>
+            </ul>
+        </div>
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li> 2-3 large eggs
+            </li>
+            <li> Salt, to taste
+            </li>
+            <li> Pepper, to taste
+            </li>
+            <li> 1 tablespoon of butter or oil
+            </li>
+            <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </div>
+        <hr />
+
+
+        <div class="instructions">
+          <h3>Instructions</h3>
+          <ol>
+            <li><strong class="desc">Beat the eggs: </strong>In a bowl, beat the eggs with a pinch of salt and pepper
+              until they are
+              well
+              mixed.
+              You can add a tablespoon of water or milk for a fluffier texture.</li>
+            <li><strong class="desc">Heat the pan:</strong>Place a non-stick frying pan over medium heat and add butter
+              or oil.</li>
+            <li><strong class="desc">Cook the omelette:</strong>Once the butter is melted and bubbling, pour in the
+              eggs. Tilt the
+              pan to
+              ensure
+              the eggs evenly coat the surface.</li>
+            <li><strong class="desc">Add fillings (optional):</strong>When the eggs begin to set at the edges but are
+              still slightly
+              runny in the
+              middle, sprinkle your chosen fillings over one half of the omelette.</li>
+            <li><strong class="desc">Fold and serve:</strong>As the omelette continues to cook, carefully lift one edge
+              and fold it
+              over
+              the
+              fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+            <li><strong class="desc">Enjoy:</strong>Serve hot, with additional salt and pepper if needed.</li>
+          </ol>
+        </div>
+        <hr>
+        <div class="nutritions p-5 pb-0 ">
+          <h3>Nutrition</h3>
+          <div class="row border-bottom">
+            <div class="col-md-6 ">
+              Calories
+            </div>
+            <div class="col-md-6">
+              <strong>277kcal</strong>
+            </div>
+          </div>
+          <div class="row border-bottom">
+            <div class="col-md-6">
+              Carbs
+            </div>
+            <div class="col-md-6">
+              <strong>0g</strong>
+            </div>
+          </div>
+          <div class="row border-bottom">
+            <div class="col-md-6">
+              Protein
+            </div>
+            <div class="col-md-6">
+              <strong>20g</strong>
+            </div>
+          </div>
+          <div class="row pb-0">
+            <div class="col-md-6">
+              Fat
+            </div>
+            <div class="col-md-6">
+              <strong>22g</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
